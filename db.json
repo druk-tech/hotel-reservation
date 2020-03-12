@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "username": "superAdmin",
+      "contact": "17348537",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin",
+      "permissionAccess": true,
+      "id": 1
+    },
+    {
+      "username": "Yeshi",
+      "contact": "245675823",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "user",
+      "permissionAccess": true,
+      "id": 2
+    },
+    {
+      "username": "",
+      "contact": "",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "",
+      "permissionAccess": false,
+      "id": 3
+    },
+    {
+      "username": "Pema",
+      "contact": "243546578",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "user",
+      "permissionAccess": true,
+      "id": 4
+    },
+    {
+      "username": "Test",
+      "contact": "456789678",
+      "email": "test@test.com",
+      "password": "test123",
+      "role": "user",
+      "permissionAccess": true,
+      "id": 5
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "hotelName": "Ariya",
+      "contact": "43567689",
+      "ratings": "****",
+      "location": "Olakha",
+      "amenities": "Gym,WiFi"
+    },
+    {
+      "id": 2,
+      "hotelName": "White",
+      "contact": "567890",
+      "ratings": "***",
+      "location": "Olakha",
+      "amenities": "Big rooms"
+    }
+  ]
+}
