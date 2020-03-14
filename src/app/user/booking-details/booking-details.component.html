@@ -1,18 +1,19 @@
 
+
 <div class="page-content p-5" id="content">
-    <h3 style="text-align: center;color:darkslategray;">User Detail</h3>
-  <table class="table table-hover">
+    <h4 style="text-align: center;color:darkslategray;">Hotel Booking History</h4>
+    <table class="table table-striped">
     <thead>
-        <tr>
-            <td>Name of the Hotel</td>
-            <td>Check In Date</td>
-            <td>Check Out Date</td>
-            <td>Number of Guests</td>
-            <td>Number of Rooms</td>
-        </tr>
+      <tr>
+        <th scope="col">Name of the Hotel</th>
+        <th scope="col">Check In Date</th>
+        <th scope="col">Check Out Date</th>
+        <th scope="col">Number of Guests</th>
+        <th scope="col">Number of Rooms</th>
+      </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let x of bookingDetail">
+        <tr *ngFor="let x of bookings">
             <td>{{x.hotelName}}</td>
             <td>{{x.check_in_date}}</td>
             <td>{{x.check_out_date}}</td>
@@ -21,8 +22,9 @@
         </tr> 
     </tbody>
   </table>
-</div>
-<app-user></app-user>
+</div>  
+
+
 
 
 

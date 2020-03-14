@@ -1,5 +1,4 @@
-<h3 style="text-align: center;color:darkslategray;">Hotel List</h3>
-<hr>
+
 <table class="table table-hover">
     <thead>
       <tr>
@@ -19,21 +18,17 @@
         <td>{{hotel.location}}</td>
         <td>{{hotel.amenities}}</td>
         <td>
-          <button type="button" class="btn btn-outline-primary btn-sm">Edit
-            <a class="btn">
-              <i class="fa fa-edit" (click)="edit(hotel)"></i>
-          </a>
+          <button type="button" class="btn btn-outline-primary btn-md" (click)="edit(hotel)">
+            Edit<i class="fa fa-edit"></i>
           </button>
         </td>
         <td>
-          <button type="button" class="btn btn-outline-primary btn-sm">Delete
-            <a class="btn text-danger" (click)="deleteHotel(hotel.id)">
-              <i class="fa fa-trash"></i>
-          </a>
+          <button type="button" class="btn btn-outline-primary btn-md" (click)="deleteHotel(hotel.id)">
+            Delete<i class="fa fa-trash"></i>
           </button>
         </td>
         <td>
-          <a href="#"><button type="button" class="btn btn-outline-primary">Add Details
+          <a ><button type="button" class="btn btn-outline-primary">Add Details
             <i class="fa fa-plus" aria-hidden="true"></i></button></a>
         </td>
     </tbody>

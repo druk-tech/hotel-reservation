@@ -9,23 +9,20 @@ import { BookingService } from './booking.service';
 })
 export class BookingDetailsComponent implements OnInit {
 
-  bookingDetail;
-
+  bookings;
+ 
   constructor(
-    private bookingService:BookingService
-
+    private bookingService:BookingService,
     ) { }
 
   ngOnInit() {
-
+    this.getBookings();
   }
 
   getBookings(){
     this.bookingService.getBookings()
     .subscribe((res:Array<any>)=>{
-      let bookings =res;
-      this.bookingDetail=bookings.filter((data=>data.bookings.id==(this.bookingDetail) && !(!!data.status)));
+    this.bookings =res.filter(data=>data.status===true);
     });  
   }
-  
 }

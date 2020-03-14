@@ -26,6 +26,15 @@
       "role": "user",
       "permissionAccess": true,
       "id": 3
+    },
+    {
+      "username": "dawa",
+      "contact": "4567890678",
+      "email": "d@d.com",
+      "password": "dawadawa",
+      "role": "user",
+      "permissionAccess": true,
+      "id": 4
     }
   ],
   "hotels": [
@@ -35,7 +44,7 @@
       "contact": "43567689",
       "ratings": "****",
       "location": "Olakha",
-      "amenities": "Gym,WiFi"
+      "amenities": "Gym,WiFi,Exotic rooms"
     },
     {
       "id": 2,
@@ -63,15 +72,6 @@
       "number_of_rooms": 1,
       "status": true,
       "id": 1
-    },
-    {
-      "hotelName": "Ariya",
-      "check_in_date": "2020-03-26",
-      "check_out_date": "2020-03-30",
-      "number_of_guest": 4,
-      "number_of_rooms": 2,
-      "status": true,
-      "id": 2
     }
   ]
 }
