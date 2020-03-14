@@ -32,7 +32,7 @@ export class LogInComponent implements OnInit {
       if (user.length) {
         localStorage.setItem('token', JSON.stringify(user[0]));
         this.success = true;
-        setTimeout( () => this.router.navigate([`/${user[0].role}`]), 500);
+        setTimeout( () => this.router.navigate([`/${user[0].role}`]), 2000);
       } else  {
         this.error = true;
       }

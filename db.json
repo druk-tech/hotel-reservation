@@ -19,31 +19,13 @@
       "id": 2
     },
     {
-      "username": "",
-      "contact": "",
-      "email": "admin@gmail.com",
-      "password": "admin123",
-      "role": "",
-      "permissionAccess": false,
-      "id": 3
-    },
-    {
-      "username": "Pema",
-      "contact": "243546578",
-      "email": "admin@gmail.com",
-      "password": "admin123",
-      "role": "user",
-      "permissionAccess": true,
-      "id": 4
-    },
-    {
       "username": "Test",
-      "contact": "456789678",
+      "contact": "5657687980",
       "email": "test@test.com",
       "password": "test123",
       "role": "user",
       "permissionAccess": true,
-      "id": 5
+      "id": 3
     }
   ],
   "hotels": [
@@ -62,6 +44,34 @@
       "ratings": "***",
       "location": "Olakha",
       "amenities": "Big rooms"
+    },
+    {
+      "id": 3,
+      "hotelName": "Hotel Druk",
+      "contact": "567890",
+      "ratings": "***",
+      "location": "Main Town, Thimphu",
+      "amenities": "Big rooms, Wifi in rooms and lobby"
+    }
+  ],
+  "bookings": [
+    {
+      "hotelName": "Druk",
+      "check_in_date": "2020-03-15",
+      "check_out_date": "2020-03-18",
+      "number_of_guest": 2,
+      "number_of_rooms": 1,
+      "status": true,
+      "id": 1
+    },
+    {
+      "hotelName": "Ariya",
+      "check_in_date": "2020-03-26",
+      "check_out_date": "2020-03-30",
+      "number_of_guest": 4,
+      "number_of_rooms": 2,
+      "status": true,
+      "id": 2
     }
   ]
 }

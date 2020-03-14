@@ -8,11 +8,12 @@ import {HomeComponent} from './home.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import {HomeService} from './home.service';
+import { ForgotComponent } from './forgot/forgot.component';
 
 
 
 @NgModule({
-  declarations: [LogInComponent, SignUpComponent, HomeComponent],
+  declarations: [LogInComponent, SignUpComponent, HomeComponent, ForgotComponent],
   exports: [
     SignUpComponent,
     HomeComponent

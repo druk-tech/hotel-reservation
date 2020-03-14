@@ -32,7 +32,7 @@ export class HotelService {
   }
 
   getHotel(id){
-    return this.http.get(`http://localhost:3000/hotels/${id}`);
+    return this.http.get(`hotelUrl/${id}`);
   }
 
   deleteHotel(id:number):Observable<Hotel>{
@@ -46,4 +46,5 @@ export class HotelService {
   updateHotel(hotel:Hotel):Observable<Hotel>{
     return this.http.put<Hotel>(this.hotelUrl + '/' +hotel.id, hotel, headerOption);
   }
+
 }

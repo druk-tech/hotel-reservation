@@ -1,24 +1,23 @@
 
-  <div class="page-content p-5" id="content">
+<div class="page-content p-5" id="content">
     <h3 style="text-align: center;color:darkslategray;">User Detail</h3>
-<table class="table table-hover">
+  <table class="table table-hover">
     <thead>
       <tr>
         <th scope="col">Name</th>
         <th scope="col">Contact</th>
         <th scope="col">Email</th>
+        <th scope="col">Password</th>
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let x of userDetail">
-         <td>{{getUserName(x.username_id)}}</td> 
-         <td>{{getUserContact(x.contact_id)}}</td> 
-         <td>{{getUserEmail(x.email_id)}}</td> 
-         <!-- <td>{{x.username}}</td>
-         <td>{{x.contact}}</td>
-         <td>{{x.email}}</td> -->
+      <tr>
+         <td>{{userDetail.username}}</td> 
+         <td>{{userDetail.contact}}</td> 
+         <td>{{userDetail.email}}</td> 
+         <td>{{userDetail.password}}</td>
       </tr>   
     </tbody>
   </table>
-  </div>
+</div>
 <app-user></app-user>
