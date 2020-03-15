@@ -22,7 +22,7 @@ export class BookingDetailsComponent implements OnInit {
   getBookings(){
     this.bookingService.getBookings()
     .subscribe((res:Array<any>)=>{
-    this.bookings =res.filter(data=>data.status===true);
+    this.bookings =res.filter(data=>data.status==true);
     });  
   }
 }

@@ -7,12 +7,15 @@ import {HomeModule} from './home/home.module';
 import {UserModule} from './user/user.module';
 import {AdminModule} from './admin/admin.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AuthGuard } from './guards/auth.guard';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +26,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -12,7 +12,8 @@ export class HotelComponent implements OnInit {
   constructor(private hotelService:HotelService) { }
 
 
-  ngOnInit() {  }
+  ngOnInit() { 
+   }
   
 
     clear(){
@@ -26,19 +27,19 @@ export class HotelComponent implements OnInit {
       }
     }
 
-
-    //adding amd updating a hotel
+    //adding and updating a hotel
   createHotel(currentHotel: Hotel) {
     if (currentHotel.id === null) {
       //console.log('Create');
       this.hotelService.createHotel(currentHotel).subscribe(
-        (data) => {
+        () => {
           this.hotelService.getAllHotels();
         });
-    } else {
+    } 
+    else {
       //console.log('Update');
       this.hotelService.updateHotel(currentHotel).subscribe(
-        (data) => {
+        () => {
           this.hotelService.getAllHotels();
         });
     }

@@ -26,4 +26,7 @@ export class HomeService {
     return localStorage.getItem('token');
   }
 
+  logout(){
+    return localStorage.removeItem('token');
+  }
 }

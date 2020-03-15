@@ -35,6 +35,15 @@
       "role": "user",
       "permissionAccess": true,
       "id": 4
+    },
+    {
+      "username": "Gatu Bdr",
+      "contact": "17643455",
+      "email": "gatu@gatu.com",
+      "password": "gatubhai",
+      "role": "user",
+      "permissionAccess": true,
+      "id": 5
     }
   ],
   "hotels": [
@@ -42,9 +51,9 @@
       "id": 1,
       "hotelName": "Ariya",
       "contact": "43567689",
-      "ratings": "****",
+      "ratings": "***",
       "location": "Olakha",
-      "amenities": "Gym,WiFi,Exotic rooms"
+      "amenities": "Gym,WiFi,Exotic rooms,pool"
     },
     {
       "id": 2,
@@ -61,6 +70,22 @@
       "ratings": "***",
       "location": "Main Town, Thimphu",
       "amenities": "Big rooms, Wifi in rooms and lobby"
+    },
+    {
+      "id": 4,
+      "hotelName": "Dhey-Kyid",
+      "contact": "166445678",
+      "ratings": "***",
+      "location": "Main Town, Thimphu",
+      "amenities": "Good food, Big rooms with WiFi"
+    },
+    {
+      "id": 5,
+      "hotelName": "Glory",
+      "contact": "23456455",
+      "ratings": "***",
+      "location": "Changbangdu,Thimphu",
+      "amenities": "Wifi, Pool"
     }
   ],
   "bookings": [
@@ -72,6 +97,15 @@
       "number_of_rooms": 1,
       "status": true,
       "id": 1
+    },
+    {
+      "hotelName": "Ariya",
+      "check_in_date": "2020-03-17",
+      "check_out_date": "2020-03-19",
+      "number_of_guest": 4,
+      "number_of_rooms": 2,
+      "status": true,
+      "id": 2
     }
   ]
 }
